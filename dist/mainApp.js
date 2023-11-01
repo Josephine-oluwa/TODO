@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.mainApp = void 0;
 const express_1 = __importDefault(require("express"));
 const cors_1 = __importDefault(require("cors"));
-const taskRouter_1 = __importDefault(require("../TaskBE/Router/taskRouter"));
+const taskRouter_1 = __importDefault(require("./Router/taskRouter"));
 const mainApp = (app) => {
     app.use((0, cors_1.default)());
     app.use(express_1.default.json());

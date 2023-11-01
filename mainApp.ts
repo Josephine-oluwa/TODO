@@ -1,6 +1,6 @@
 import express, { Application, Request, Response } from "express";
 import cors from "cors";
-import task from "../TaskBE/Router/taskRouter"
+import task from "./Router/taskRouter"
 
 export const mainApp = (app: Application) => {
   app.use(cors());
