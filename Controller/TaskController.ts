@@ -1,8 +1,6 @@
 import {Request, Response} from "express"
 import TaskModel from "../model/TaskModel"
 
-
-
 export const createTask = async (req: Request, res: Response)=> {
     try {
         const {task, priority } = req.body
